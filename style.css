@@ -11,15 +11,16 @@ h1{
 
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
-    width: 50%;
+    width: 40%;
     padding: 5%;
 }
 
 
 .half-width img{
-    width: 80%;
+    width: 96%;
 
 }
 
