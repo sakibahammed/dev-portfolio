@@ -38,4 +38,9 @@ section{
     background-repeat: no-repeat;
 
 }
+.low-banner{
+    background-image: url(images/dream-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
    
