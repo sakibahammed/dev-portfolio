@@ -9,13 +9,14 @@ h1{
     color: orange;
 }
 
-section{
+.flexi-con{
     display: flex;
     margin-bottom: 100px;
 }
 .half-width{
     width: 40%;
     padding: 5%;
+    
 }
 
 
@@ -43,4 +44,34 @@ section{
     background-position: right;
     background-repeat: no-repeat;
 }
+.experience-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    border-radius: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+#wd-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1 ;
+   
+}
+#fwd-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(red,tomato,yellow);
+    border-image-slice: 1;
+
+}
+
+footer p{
+    text-align: center;
+}
+
    
